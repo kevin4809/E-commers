@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cover-items{
+    display: grid;
+    grid-template-columns: auto auto ;
+  
+}
+
+.item-1,.item-2,.item-3,.item-4,.item-5{
+    background-color: #4B7F52;
+    border-radius: 10% / 50%;
+    margin: 20px;
+   
+}
+
+.cover-items h1{
+    font-size: 15px;
+    text-align: center;
+}
+.cover-items img{
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: 0px auto;
+    background-color: aquamarine;
+    border-radius: 50px;
+    padding: 10px;
+  
+}
+
+.cover-items button{
+    width: 40px;
+    height: 20px;
+}
+
+.precio-item-1, .precio-item-2,.precio-item-3,.precio-item-4{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*-------------------------------------------NAVBAR----------------------------*/
+
+.cover-navbar img{
+    width: 40px;
+    height: auto;
+    
+}
+
+.cover-navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.cover-navbar{
+    display: flex;;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 2px solid black;
+    background-color: aquamarine;
+
+}

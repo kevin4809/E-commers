@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html {
+    background-color: #C9FFE2;
+}
+
+.menu-items ul {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+}
+
+.menu-items ul li a {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.categories {
+    width: 100%;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6 {
+    background-color: #4B7F52;
+    border-radius: 40px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+
+}
+
+.categories-items {
+    margin-top: 3rem;
+
+}
+
+.all-items {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+
+    text-align: center;
+
+}
+
+.all-items img {
+    width: 30px;
+    height: auto;
+
+}
+
+
+/*--------------------------------HOME--------------------------------*/
+
+.img-logo {
+    background-color: #4B7F52;
+    border-radius: 20px;
+}
+
+.img-logo img {
+    width: 200px;
+    height: auto;
+    justify-content: end;
+    position: relative;
+    top: 50px;
+}
+
+.cover-home {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.home {
+    background-color: #96E8BC;
+    border-radius: 25% 10%;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.text-home h1 {
+    font-size: 20px;
+    margin: auto;
+
+}
+
+.text-home {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.home {
+    width: 100%;
+    padding: 20px;
+}
+
+
+/*------------------------------------------PROMOTIONS--------------------------*/
+
+.item-promotion-2 img {
+    width: 300px;
+    height: auto;
+   
+}
+
+.item-promotion-1 h1{
+    text-align: center;
+    margin-bottom: 4    0px;
+}
+
+.item-promotion-2{ 
+    background-color: #4B7F52;
+    border-radius: 50% 20% / 10% 40%;
+}
+
+
+.cover-promotions {
+    display: flex;
+    flex-direction: column; 
+    
+}
+
+.promotions {
+    background-color: #96E8BC;
+    padding-bottom: 40px;
+    border-radius: 40px;
+    padding: 40px;
+}
+
+.decoration{
+    background-color: #96E8BC;
+    color: #96E8BC;
+    width: 100%;
+    height: 10rem;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    display: grid;
+    justify-content: end;
+    grid-template-columns: auto auto auto ;
+    padding: 50px;
+  
+
+}
+
+.decoration h5{
+    width: 80px;
+    height: 80px   ;
+    background-color: #4B7F52;
+    border-radius: 25% 10%;
+    position: relative;
+    left: 20px;
+    top: -20px;
+
+}
